@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shizen（自然）— 用最自然的方式學日文</title>
+<meta name="description" content="Shizen 是一款溫暖可愛的日語學習 App：生活會話、日文歌曲、50 音測驗、JLPT 檢定刷題與單字卡，五條路徑陪你自然學會日文。">
+<link rel="icon" type="image/png" href="icon.png">
+<style>
+  :root {
+    --brand: #23B5A1; --natural: #2FBE8C; --music: #8C6BE0; --kana: #F09A2E;
+    --jlpt: #3E8FDF; --vocab: #FF7A9A; --star: #FFC53D;
+    --text: #1B2A32; --text2: #5E727B; --on-brand: #FFFFFF;
+    --surface: #FFFFFF; --muted: #F1F6F4; --stroke: #E4EDEA;
+    --bg-top: #F8FCFB; --bg-bottom: #EAF6F1;
+    --shadow: 0 6px 24px rgba(35, 181, 161, .12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --brand: #47D6C2; --natural: #53D89F; --music: #A98BF0; --kana: #FFB85C;
+      --jlpt: #6FB1F0; --vocab: #FF94AE; --star: #FFD45F;
+      --text: #F1F6F7; --text2: #A9B8BF; --on-brand: #0B1418;
+      --surface: #1A2228; --muted: #232E34; --stroke: #303C42;
+      --bg-top: #111A1F; --bg-bottom: #0B1115;
+      --shadow: 0 6px 24px rgba(0, 0, 0, .35);
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: ui-rounded, "SF Pro Rounded", -apple-system, "PingFang TC", "Noto Sans TC", sans-serif;
+    color: var(--text);
+    background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+    min-height: 100vh; line-height: 1.7;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 24px 20px 64px; }
+  header.hero { text-align: center; padding: 56px 0 40px; }
+  .hero img.icon {
+    width: 128px; height: 128px; border-radius: 28px;
+    box-shadow: var(--shadow); margin-bottom: 20px;
+  }
+  .hero h1 { font-size: 2.2rem; letter-spacing: .02em; }
+  .hero h1 small { display: block; font-size: 1.05rem; color: var(--text2); font-weight: 500; margin-top: 4px; }
+  .hero p.tagline { font-size: 1.15rem; color: var(--text2); max-width: 34em; margin: 16px auto 0; }
+  .cta { margin-top: 28px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 13px 28px; border-radius: 999px;
+    font-weight: 700; text-decoration: none; font-size: 1rem;
+    transition: transform .15s ease;
+  }
+  .btn:active { transform: scale(.95); }
+  .btn.primary { background: var(--brand); color: var(--on-brand); box-shadow: var(--shadow); }
+  .btn.ghost { color: var(--brand); background: color-mix(in srgb, var(--brand) 12%, transparent); }
+  section { margin-top: 48px; }
+  h2 { font-size: 1.5rem; margin-bottom: 18px; text-align: center; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--stroke);
+    border-radius: 20px; padding: 22px; box-shadow: var(--shadow);
+  }
+  .card .emoji { font-size: 1.8rem; }
+  .card h3 { font-size: 1.1rem; margin: 8px 0 6px; }
+  .card p { color: var(--text2); font-size: .95rem; }
+  .card.natural h3 { color: var(--natural); }
+  .card.music h3 { color: var(--music); }
+  .card.kana h3 { color: var(--kana); }
+  .card.jlpt h3 { color: var(--jlpt); }
+  .card.vocab h3 { color: var(--vocab); }
+  .highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+  .chip {
+    background: var(--muted); border-radius: 16px; padding: 14px 16px;
+    font-size: .95rem; text-align: center; color: var(--text);
+  }
+  .chip b { color: var(--brand); }
+  footer {
+    margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--stroke);
+    text-align: center; color: var(--text2); font-size: .9rem;
+  }
+  footer a { color: var(--brand); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <img class="icon" src="icon.png" alt="Shizen App 圖示">
+    <h1>Shizen<small>自然 — 用最自然的方式學日文</small></h1>
+    <p class="tagline">不背孤立單字。從生活對話、日文歌曲、扎實 50 音開始，邊玩邊記；再用 JLPT 仿真題庫和單字卡，把日文練到熟。</p>
+    <div class="cta">
+      <a class="btn primary" href="https://apps.apple.com/app/id6785239205">App Store 下載</a>
+      <a class="btn ghost" href="https://testflight.apple.com/join/SPdkJEDt">TestFlight 搶先版</a>
+      <a class="btn ghost" href="support.html">支援與常見問題</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>五大學習區</h2>
+    <div class="cards">
+      <div class="card natural">
+        <span class="emoji">🌱</span>
+        <h3>自然會話</h3>
+        <p>33 個生活情境的真實對話，從句子自然學會單字，搭配閃電四選一、聽聲辨字小遊戲。</p>
+      </div>
+      <div class="card music">
+        <span class="emoji">🎵</span>
+        <h3>音樂</h3>
+        <p>真人演唱日文歌：卡拉 OK 歌詞高亮、單句循環、慢速播放，從旋律記住句子。</p>
+      </div>
+      <div class="card kana">
+        <span class="emoji">🈁</span>
+        <h3>50 音</h3>
+        <p>8 種題型測驗驅動：聽音辨假名、手寫筆順描紅、連連看，系統自動挑最該練的假名。</p>
+      </div>
+      <div class="card jlpt">
+        <span class="emoji">📝</span>
+        <h3>JLPT 檢定</h3>
+        <p>4398 題原創仿真題庫（N5–N2），比照官方題型，每題附繁中解析與兩段式提示，永遠刷不完。</p>
+      </div>
+      <div class="card vocab">
+        <span class="emoji">🩷</span>
+        <h3>單字卡</h3>
+        <p>1095 張依 JLPT 分級的單字卡，翻卡看讀音與中文意思，間隔重複幫你記到熟。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>為什麼選 Shizen</h2>
+    <div class="highlights">
+      <div class="chip"><b>繁中解析</b><br>台灣用語解題說明</div>
+      <div class="chip"><b>離線可用</b><br>內容全內建免下載</div>
+      <div class="chip"><b>免費</b><br>無廣告・無內購</div>
+      <div class="chip"><b>自然發音</b><br>全區日文語音朗讀</div>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="support.html">支援</a> ・ <a href="privacy.html">隱私權政策</a></p>
+    <p>© 2026 Wanchun Li. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>

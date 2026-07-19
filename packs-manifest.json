@@ -1,0 +1,96 @@
+{
+ "version": 44,
+ "packs": [
+  {
+   "id": "kana",
+   "archive": "kana.aar",
+   "version": 39,
+   "bytes": 5950908,
+   "title": "五十音",
+   "category": "kana",
+   "audioCount": 949,
+   "contentVersion": 39,
+   "audioVersion": 39,
+   "contentArchive": "kana-content.aar",
+   "contentBytes": 19233
+  },
+  {
+   "id": "natural",
+   "archive": "natural.aar",
+   "version": 39,
+   "bytes": 1552998,
+   "title": "自然會話",
+   "category": "natural",
+   "audioCount": 166,
+   "contentVersion": 39,
+   "audioVersion": 39,
+   "contentArchive": "natural-content.aar",
+   "contentBytes": 7405
+  },
+  {
+   "id": "n5",
+   "archive": "n5.aar",
+   "version": 40,
+   "bytes": 20478307,
+   "title": "N5",
+   "category": "level",
+   "audioCount": 1842,
+   "contentVersion": 40,
+   "audioVersion": 39,
+   "contentArchive": "n5-content.aar",
+   "contentBytes": 337161
+  },
+  {
+   "id": "n4",
+   "archive": "n4.aar",
+   "version": 40,
+   "bytes": 29482245,
+   "title": "N4",
+   "category": "level",
+   "audioCount": 2267,
+   "contentVersion": 40,
+   "audioVersion": 39,
+   "contentArchive": "n4-content.aar",
+   "contentBytes": 420128
+  },
+  {
+   "id": "n3",
+   "archive": "n3.aar",
+   "version": 42,
+   "bytes": 61933524,
+   "title": "N3",
+   "category": "level",
+   "audioCount": 4759,
+   "contentVersion": 42,
+   "audioVersion": 42,
+   "contentArchive": "n3-content.aar",
+   "contentBytes": 439449
+  },
+  {
+   "id": "n2",
+   "archive": "n2.aar",
+   "version": 42,
+   "bytes": 31138386,
+   "title": "N2",
+   "category": "level",
+   "audioCount": 611,
+   "contentVersion": 42,
+   "audioVersion": 42,
+   "contentArchive": "n2-content.aar",
+   "contentBytes": 504904
+  },
+  {
+   "id": "n1",
+   "archive": "n1.aar",
+   "version": 44,
+   "bytes": 33349857,
+   "title": "N1",
+   "category": "level",
+   "audioCount": 126,
+   "contentVersion": 44,
+   "audioVersion": 40,
+   "contentArchive": "n1-content.aar",
+   "contentBytes": 827102
+  }
+ ]
+}
