@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shizen 支援中心</title>
+<meta name="description" content="Shizen（自然）日語學習 App 的支援中心：常見問題與聯絡方式。">
+<link rel="icon" type="image/png" href="icon.png">
+<style>
+  :root {
+    --brand: #23B5A1; --text: #1B2A32; --text2: #5E727B; --on-brand: #FFFFFF;
+    --surface: #FFFFFF; --muted: #F1F6F4; --stroke: #E4EDEA;
+    --bg-top: #F8FCFB; --bg-bottom: #EAF6F1;
+    --shadow: 0 6px 24px rgba(35, 181, 161, .12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --brand: #47D6C2; --text: #F1F6F7; --text2: #A9B8BF; --on-brand: #0B1418;
+      --surface: #1A2228; --muted: #232E34; --stroke: #303C42;
+      --bg-top: #111A1F; --bg-bottom: #0B1115;
+      --shadow: 0 6px 24px rgba(0, 0, 0, .35);
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: ui-rounded, "SF Pro Rounded", -apple-system, "PingFang TC", "Noto Sans TC", sans-serif;
+    color: var(--text);
+    background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+    min-height: 100vh; line-height: 1.8;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+  a.back { color: var(--brand); text-decoration: none; font-weight: 600; }
+  h1 { font-size: 1.8rem; margin: 16px 0 8px; }
+  p.lead { color: var(--text2); margin-bottom: 28px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--stroke);
+    border-radius: 20px; padding: 22px 24px; box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+  .card h2 { font-size: 1.05rem; margin-bottom: 6px; }
+  .card p { color: var(--text2); font-size: .95rem; }
+  .contact {
+    background: var(--brand); color: var(--on-brand);
+    border-radius: 20px; padding: 24px; text-align: center; margin-top: 32px;
+    box-shadow: var(--shadow);
+  }
+  .contact a { color: var(--on-brand); font-weight: 700; font-size: 1.1rem; }
+  footer { margin-top: 40px; text-align: center; color: var(--text2); font-size: .9rem; }
+  footer a { color: var(--brand); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="back" href="index.html">← 回 Shizen 首頁</a>
+  <h1>支援中心</h1>
+  <p class="lead">使用 Shizen 遇到問題嗎？先看看常見問題，找不到答案再寫信給我們。</p>
+
+  <div class="card">
+    <h2>App 需要網路嗎？</h2>
+    <p>文字內容不需要。題目、單字卡、對話與歌詞第一次開啟就內建在 App 裡，離線也能學；N4 到 N1 的日文發音音檔另外提供下載，載好之後一樣離線可用。網路會用在下載內容更新與發音音檔，以及訂閱的購買與恢復購買（由 App Store 處理）。</p>
+  </div>
+
+  <div class="card">
+    <h2>我的學習進度存在哪裡？會不見嗎？</h2>
+    <p>進度（XP、等級、連續天數、每個假名與題目的熟練度）都儲存在你的裝置上，不會上傳到任何伺服器。刪除 App 會一併刪除進度，請留意。</p>
+  </div>
+
+  <div class="card">
+    <h2>JLPT 題目是官方考古題嗎？</h2>
+    <p>不是。題庫是比照官方題型格式全新編寫的原創模擬題，難度對齊官方基準，並附台灣用語的繁體中文解析。目前超過 14,000 題，N5 到 N1 五個級數都有。</p>
+  </div>
+
+  <div class="card">
+    <h2>有 N1 題庫和聽力測驗嗎？</h2>
+    <p>都有。N1 題庫已上線（超過 3,700 題），聽解與読解從 N5 到 N1 也都齊了。聽解・読解屬於 Shizen Premium 訂閱內容，免費版每週可以試 3 題，每週一重置。</p>
+  </div>
+
+  <div class="card">
+    <h2>App 要付費嗎？</h2>
+    <p>免費下載，沒有廣告。50 音、自然會話、音樂、單字卡全部免費，JLPT 題庫也有超過 13,000 題可以無限刷。想要更深入的話有 Shizen Premium 訂閱（月 NT$60／年 NT$600，附 7 天免費試用），解鎖 JLPT 聽解・読解題型、答前提示的第二段「解題步驟」，以及單字的考題演練。</p>
+  </div>
+
+  <div class="card" id="subscription">
+    <h2>訂閱怎麼取消？</h2>
+    <p>打開 iPhone 的「設定 → 你的名字 → 訂閱」，選 Shizen 後停止訂閱；也可以在 App 的「我的 → 訂閱」點「管理訂閱」直接跳過去。只要在當期結束前至少 24 小時關閉自動續訂就不會再扣款，已經付費的當期仍可以用到期末。</p>
+  </div>
+
+  <div class="card">
+    <h2>換手機或重裝 App，訂閱還在嗎？</h2>
+    <p>在的，訂閱綁在你的 Apple 帳號。用同一個 Apple 帳號登入後打開 App，到「我的 → 訂閱」點一下「恢復購買」就會回來，不需要註冊帳號。</p>
+  </div>
+
+  <div class="card">
+    <h2>可以退費嗎？</h2>
+    <p>App 內的購買一律由 Apple 處理。退費請到 reportaproblem.apple.com 用你的 Apple 帳號提出申請；我們沒有經手你的付款資料，也無法代為退款。</p>
+  </div>
+
+  <div class="card">
+    <h2>發現題目錯誤或想許願功能？</h2>
+    <p>歡迎直接來信！題目勘誤請附上題目內容或截圖，我們會盡快修正並透過內容更新推送。</p>
+  </div>
+
+  <div class="contact">
+    <p>聯絡我們</p>
+    <a href="mailto:az1357911@gmail.com">az1357911@gmail.com</a>
+  </div>
+
+  <footer>
+    <p>最後更新：2026 年 8 月 31 日</p>
+    <p><a href="privacy.html">隱私權政策</a></p>
+    <p>© 2026 Wanchun Li. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>
