@@ -1,0 +1,1029 @@
+{
+ "version": 73,
+ "packs": [
+  {
+   "id": "kana",
+   "archive": "kana.aar.enc",
+   "version": 40,
+   "bytes": 11614149,
+   "title": "五十音",
+   "category": "kana",
+   "audioCount": 1557,
+   "contentVersion": 40,
+   "audioVersion": 40,
+   "contentArchive": "kana-content.aar.enc",
+   "contentBytes": 19230,
+   "audioShards": [
+    {
+     "key": "0",
+     "archive": "kana-audio-0.aar.enc",
+     "bytes": 1033369,
+     "audioCount": 134,
+     "version": 40
+    },
+    {
+     "key": "1",
+     "archive": "kana-audio-1.aar.enc",
+     "bytes": 659221,
+     "audioCount": 88,
+     "version": 40
+    },
+    {
+     "key": "2",
+     "archive": "kana-audio-2.aar.enc",
+     "bytes": 662249,
+     "audioCount": 88,
+     "version": 40
+    },
+    {
+     "key": "3",
+     "archive": "kana-audio-3.aar.enc",
+     "bytes": 894163,
+     "audioCount": 119,
+     "version": 40
+    },
+    {
+     "key": "4",
+     "archive": "kana-audio-4.aar.enc",
+     "bytes": 766048,
+     "audioCount": 106,
+     "version": 40
+    },
+    {
+     "key": "5",
+     "archive": "kana-audio-5.aar.enc",
+     "bytes": 726675,
+     "audioCount": 99,
+     "version": 40
+    },
+    {
+     "key": "6",
+     "archive": "kana-audio-6.aar.enc",
+     "bytes": 781489,
+     "audioCount": 100,
+     "version": 40
+    },
+    {
+     "key": "7",
+     "archive": "kana-audio-7.aar.enc",
+     "bytes": 576836,
+     "audioCount": 82,
+     "version": 40
+    },
+    {
+     "key": "8",
+     "archive": "kana-audio-8.aar.enc",
+     "bytes": 588395,
+     "audioCount": 79,
+     "version": 40
+    },
+    {
+     "key": "9",
+     "archive": "kana-audio-9.aar.enc",
+     "bytes": 877257,
+     "audioCount": 114,
+     "version": 40
+    },
+    {
+     "key": "a",
+     "archive": "kana-audio-a.aar.enc",
+     "bytes": 692694,
+     "audioCount": 98,
+     "version": 40
+    },
+    {
+     "key": "b",
+     "archive": "kana-audio-b.aar.enc",
+     "bytes": 737494,
+     "audioCount": 97,
+     "version": 40
+    },
+    {
+     "key": "c",
+     "archive": "kana-audio-c.aar.enc",
+     "bytes": 639068,
+     "audioCount": 90,
+     "version": 40
+    },
+    {
+     "key": "d",
+     "archive": "kana-audio-d.aar.enc",
+     "bytes": 839146,
+     "audioCount": 110,
+     "version": 40
+    },
+    {
+     "key": "e",
+     "archive": "kana-audio-e.aar.enc",
+     "bytes": 603523,
+     "audioCount": 80,
+     "version": 40
+    },
+    {
+     "key": "f",
+     "archive": "kana-audio-f.aar.enc",
+     "bytes": 517292,
+     "audioCount": 73,
+     "version": 40
+    }
+   ],
+   "minAppVersion": "1.4"
+  },
+  {
+   "id": "natural",
+   "archive": "natural.aar.enc",
+   "version": 46,
+   "bytes": 12779042,
+   "title": "自然會話",
+   "category": "natural",
+   "audioCount": 715,
+   "contentVersion": 46,
+   "audioVersion": 44,
+   "contentArchive": "natural-content.aar.enc",
+   "contentBytes": 29648,
+   "audioShards": [
+    {
+     "key": "0",
+     "archive": "natural-audio-0.aar.enc",
+     "bytes": 1018615,
+     "audioCount": 56,
+     "version": 44
+    },
+    {
+     "key": "1",
+     "archive": "natural-audio-1.aar.enc",
+     "bytes": 935524,
+     "audioCount": 51,
+     "version": 44
+    },
+    {
+     "key": "2",
+     "archive": "natural-audio-2.aar.enc",
+     "bytes": 974826,
+     "audioCount": 43,
+     "version": 44
+    },
+    {
+     "key": "3",
+     "archive": "natural-audio-3.aar.enc",
+     "bytes": 706683,
+     "audioCount": 40,
+     "version": 44
+    },
+    {
+     "key": "4",
+     "archive": "natural-audio-4.aar.enc",
+     "bytes": 710747,
+     "audioCount": 38,
+     "version": 44
+    },
+    {
+     "key": "5",
+     "archive": "natural-audio-5.aar.enc",
+     "bytes": 817847,
+     "audioCount": 51,
+     "version": 44
+    },
+    {
+     "key": "6",
+     "archive": "natural-audio-6.aar.enc",
+     "bytes": 1009465,
+     "audioCount": 59,
+     "version": 44
+    },
+    {
+     "key": "7",
+     "archive": "natural-audio-7.aar.enc",
+     "bytes": 467096,
+     "audioCount": 25,
+     "version": 44
+    },
+    {
+     "key": "8",
+     "archive": "natural-audio-8.aar.enc",
+     "bytes": 607352,
+     "audioCount": 36,
+     "version": 44
+    },
+    {
+     "key": "9",
+     "archive": "natural-audio-9.aar.enc",
+     "bytes": 537789,
+     "audioCount": 30,
+     "version": 44
+    },
+    {
+     "key": "a",
+     "archive": "natural-audio-a.aar.enc",
+     "bytes": 547721,
+     "audioCount": 30,
+     "version": 44
+    },
+    {
+     "key": "b",
+     "archive": "natural-audio-b.aar.enc",
+     "bytes": 544015,
+     "audioCount": 41,
+     "version": 44
+    },
+    {
+     "key": "c",
+     "archive": "natural-audio-c.aar.enc",
+     "bytes": 1083515,
+     "audioCount": 65,
+     "version": 44
+    },
+    {
+     "key": "d",
+     "archive": "natural-audio-d.aar.enc",
+     "bytes": 990453,
+     "audioCount": 51,
+     "version": 44
+    },
+    {
+     "key": "e",
+     "archive": "natural-audio-e.aar.enc",
+     "bytes": 798399,
+     "audioCount": 52,
+     "version": 44
+    },
+    {
+     "key": "f",
+     "archive": "natural-audio-f.aar.enc",
+     "bytes": 999347,
+     "audioCount": 47,
+     "version": 44
+    }
+   ],
+   "minAppVersion": "1.4"
+  },
+  {
+   "id": "music",
+   "archive": "music.aar.enc",
+   "version": 6,
+   "bytes": 3481728,
+   "title": "音樂",
+   "category": "music",
+   "audioCount": 196,
+   "contentVersion": 6,
+   "audioVersion": 5,
+   "contentArchive": "music-content.aar.enc",
+   "contentBytes": 11281,
+   "audioShards": [
+    {
+     "key": "0",
+     "archive": "music-audio-0.aar.enc",
+     "bytes": 222363,
+     "audioCount": 8,
+     "version": 5
+    },
+    {
+     "key": "1",
+     "archive": "music-audio-1.aar.enc",
+     "bytes": 209719,
+     "audioCount": 14,
+     "version": 5
+    },
+    {
+     "key": "2",
+     "archive": "music-audio-2.aar.enc",
+     "bytes": 205916,
+     "audioCount": 15,
+     "version": 5
+    },
+    {
+     "key": "3",
+     "archive": "music-audio-3.aar.enc",
+     "bytes": 138235,
+     "audioCount": 8,
+     "version": 5
+    },
+    {
+     "key": "4",
+     "archive": "music-audio-4.aar.enc",
+     "bytes": 263236,
+     "audioCount": 13,
+     "version": 5
+    },
+    {
+     "key": "5",
+     "archive": "music-audio-5.aar.enc",
+     "bytes": 264682,
+     "audioCount": 15,
+     "version": 5
+    },
+    {
+     "key": "6",
+     "archive": "music-audio-6.aar.enc",
+     "bytes": 110999,
+     "audioCount": 7,
+     "version": 5
+    },
+    {
+     "key": "7",
+     "archive": "music-audio-7.aar.enc",
+     "bytes": 148346,
+     "audioCount": 6,
+     "version": 5
+    },
+    {
+     "key": "8",
+     "archive": "music-audio-8.aar.enc",
+     "bytes": 409880,
+     "audioCount": 20,
+     "version": 5
+    },
+    {
+     "key": "9",
+     "archive": "music-audio-9.aar.enc",
+     "bytes": 195008,
+     "audioCount": 9,
+     "version": 5
+    },
+    {
+     "key": "a",
+     "archive": "music-audio-a.aar.enc",
+     "bytes": 253653,
+     "audioCount": 16,
+     "version": 5
+    },
+    {
+     "key": "b",
+     "archive": "music-audio-b.aar.enc",
+     "bytes": 187838,
+     "audioCount": 13,
+     "version": 5
+    },
+    {
+     "key": "c",
+     "archive": "music-audio-c.aar.enc",
+     "bytes": 195498,
+     "audioCount": 12,
+     "version": 5
+    },
+    {
+     "key": "d",
+     "archive": "music-audio-d.aar.enc",
+     "bytes": 290774,
+     "audioCount": 17,
+     "version": 5
+    },
+    {
+     "key": "e",
+     "archive": "music-audio-e.aar.enc",
+     "bytes": 174332,
+     "audioCount": 11,
+     "version": 5
+    },
+    {
+     "key": "f",
+     "archive": "music-audio-f.aar.enc",
+     "bytes": 199968,
+     "audioCount": 12,
+     "version": 5
+    }
+   ],
+   "minAppVersion": "1.4"
+  },
+  {
+   "id": "n5",
+   "archive": "n5.aar.enc",
+   "version": 50,
+   "bytes": 27097854,
+   "title": "N5",
+   "category": "level",
+   "audioCount": 2533,
+   "contentVersion": 50,
+   "audioVersion": 42,
+   "contentArchive": "n5-content.aar.enc",
+   "contentBytes": 547317,
+   "audioShards": [
+    {
+     "key": "0",
+     "archive": "n5-audio-0.aar.enc",
+     "bytes": 1710165,
+     "audioCount": 187,
+     "version": 42
+    },
+    {
+     "key": "1",
+     "archive": "n5-audio-1.aar.enc",
+     "bytes": 1635226,
+     "audioCount": 151,
+     "version": 42
+    },
+    {
+     "key": "2",
+     "archive": "n5-audio-2.aar.enc",
+     "bytes": 1912297,
+     "audioCount": 184,
+     "version": 42
+    },
+    {
+     "key": "3",
+     "archive": "n5-audio-3.aar.enc",
+     "bytes": 1942335,
+     "audioCount": 191,
+     "version": 42
+    },
+    {
+     "key": "4",
+     "archive": "n5-audio-4.aar.enc",
+     "bytes": 1575485,
+     "audioCount": 154,
+     "version": 42
+    },
+    {
+     "key": "5",
+     "archive": "n5-audio-5.aar.enc",
+     "bytes": 1588433,
+     "audioCount": 156,
+     "version": 42
+    },
+    {
+     "key": "6",
+     "archive": "n5-audio-6.aar.enc",
+     "bytes": 1477324,
+     "audioCount": 148,
+     "version": 42
+    },
+    {
+     "key": "7",
+     "archive": "n5-audio-7.aar.enc",
+     "bytes": 2152872,
+     "audioCount": 176,
+     "version": 42
+    },
+    {
+     "key": "8",
+     "archive": "n5-audio-8.aar.enc",
+     "bytes": 1477812,
+     "audioCount": 135,
+     "version": 42
+    },
+    {
+     "key": "9",
+     "archive": "n5-audio-9.aar.enc",
+     "bytes": 1520807,
+     "audioCount": 160,
+     "version": 42
+    },
+    {
+     "key": "a",
+     "archive": "n5-audio-a.aar.enc",
+     "bytes": 1563578,
+     "audioCount": 142,
+     "version": 42
+    },
+    {
+     "key": "b",
+     "archive": "n5-audio-b.aar.enc",
+     "bytes": 1550939,
+     "audioCount": 134,
+     "version": 42
+    },
+    {
+     "key": "c",
+     "archive": "n5-audio-c.aar.enc",
+     "bytes": 1620459,
+     "audioCount": 150,
+     "version": 42
+    },
+    {
+     "key": "d",
+     "archive": "n5-audio-d.aar.enc",
+     "bytes": 1793980,
+     "audioCount": 172,
+     "version": 42
+    },
+    {
+     "key": "e",
+     "archive": "n5-audio-e.aar.enc",
+     "bytes": 1396029,
+     "audioCount": 141,
+     "version": 42
+    },
+    {
+     "key": "f",
+     "archive": "n5-audio-f.aar.enc",
+     "bytes": 1632796,
+     "audioCount": 152,
+     "version": 42
+    }
+   ],
+   "minAppVersion": "1.4"
+  },
+  {
+   "id": "n4",
+   "archive": "n4.aar.enc",
+   "version": 47,
+   "bytes": 32034969,
+   "title": "N4",
+   "category": "level",
+   "audioCount": 2527,
+   "contentVersion": 47,
+   "audioVersion": 42,
+   "contentArchive": "n4-content.aar.enc",
+   "contentBytes": 477928,
+   "audioShards": [
+    {
+     "key": "0",
+     "archive": "n4-audio-0.aar.enc",
+     "bytes": 1926301,
+     "audioCount": 180,
+     "version": 42
+    },
+    {
+     "key": "1",
+     "archive": "n4-audio-1.aar.enc",
+     "bytes": 2187780,
+     "audioCount": 173,
+     "version": 42
+    },
+    {
+     "key": "2",
+     "archive": "n4-audio-2.aar.enc",
+     "bytes": 1470265,
+     "audioCount": 142,
+     "version": 42
+    },
+    {
+     "key": "3",
+     "archive": "n4-audio-3.aar.enc",
+     "bytes": 1899763,
+     "audioCount": 137,
+     "version": 42
+    },
+    {
+     "key": "4",
+     "archive": "n4-audio-4.aar.enc",
+     "bytes": 1964620,
+     "audioCount": 154,
+     "version": 42
+    },
+    {
+     "key": "5",
+     "archive": "n4-audio-5.aar.enc",
+     "bytes": 1917486,
+     "audioCount": 142,
+     "version": 42
+    },
+    {
+     "key": "6",
+     "archive": "n4-audio-6.aar.enc",
+     "bytes": 1874120,
+     "audioCount": 165,
+     "version": 42
+    },
+    {
+     "key": "7",
+     "archive": "n4-audio-7.aar.enc",
+     "bytes": 1913810,
+     "audioCount": 151,
+     "version": 42
+    },
+    {
+     "key": "8",
+     "archive": "n4-audio-8.aar.enc",
+     "bytes": 2522725,
+     "audioCount": 199,
+     "version": 42
+    },
+    {
+     "key": "9",
+     "archive": "n4-audio-9.aar.enc",
+     "bytes": 2427451,
+     "audioCount": 193,
+     "version": 42
+    },
+    {
+     "key": "a",
+     "archive": "n4-audio-a.aar.enc",
+     "bytes": 1839337,
+     "audioCount": 142,
+     "version": 42
+    },
+    {
+     "key": "b",
+     "archive": "n4-audio-b.aar.enc",
+     "bytes": 1334278,
+     "audioCount": 118,
+     "version": 42
+    },
+    {
+     "key": "c",
+     "archive": "n4-audio-c.aar.enc",
+     "bytes": 1540512,
+     "audioCount": 137,
+     "version": 42
+    },
+    {
+     "key": "d",
+     "archive": "n4-audio-d.aar.enc",
+     "bytes": 1990906,
+     "audioCount": 145,
+     "version": 42
+    },
+    {
+     "key": "e",
+     "archive": "n4-audio-e.aar.enc",
+     "bytes": 2574083,
+     "audioCount": 197,
+     "version": 42
+    },
+    {
+     "key": "f",
+     "archive": "n4-audio-f.aar.enc",
+     "bytes": 2173604,
+     "audioCount": 152,
+     "version": 42
+    }
+   ],
+   "minAppVersion": "1.4"
+  },
+  {
+   "id": "n3",
+   "archive": "n3.aar.enc",
+   "version": 49,
+   "bytes": 62106480,
+   "title": "N3",
+   "category": "level",
+   "audioCount": 4761,
+   "contentVersion": 49,
+   "audioVersion": 44,
+   "contentArchive": "n3-content.aar.enc",
+   "contentBytes": 875100,
+   "audioShards": [
+    {
+     "key": "0",
+     "archive": "n3-audio-0.aar.enc",
+     "bytes": 4286668,
+     "audioCount": 284,
+     "version": 44
+    },
+    {
+     "key": "1",
+     "archive": "n3-audio-1.aar.enc",
+     "bytes": 3717107,
+     "audioCount": 319,
+     "version": 44
+    },
+    {
+     "key": "2",
+     "archive": "n3-audio-2.aar.enc",
+     "bytes": 3282992,
+     "audioCount": 289,
+     "version": 44
+    },
+    {
+     "key": "3",
+     "archive": "n3-audio-3.aar.enc",
+     "bytes": 4955277,
+     "audioCount": 342,
+     "version": 44
+    },
+    {
+     "key": "4",
+     "archive": "n3-audio-4.aar.enc",
+     "bytes": 3826447,
+     "audioCount": 286,
+     "version": 44
+    },
+    {
+     "key": "5",
+     "archive": "n3-audio-5.aar.enc",
+     "bytes": 3159408,
+     "audioCount": 284,
+     "version": 44
+    },
+    {
+     "key": "6",
+     "archive": "n3-audio-6.aar.enc",
+     "bytes": 3803647,
+     "audioCount": 312,
+     "version": 44
+    },
+    {
+     "key": "7",
+     "archive": "n3-audio-7.aar.enc",
+     "bytes": 3586173,
+     "audioCount": 258,
+     "version": 44
+    },
+    {
+     "key": "8",
+     "archive": "n3-audio-8.aar.enc",
+     "bytes": 4687302,
+     "audioCount": 298,
+     "version": 44
+    },
+    {
+     "key": "9",
+     "archive": "n3-audio-9.aar.enc",
+     "bytes": 3786655,
+     "audioCount": 289,
+     "version": 44
+    },
+    {
+     "key": "a",
+     "archive": "n3-audio-a.aar.enc",
+     "bytes": 3776381,
+     "audioCount": 271,
+     "version": 44
+    },
+    {
+     "key": "b",
+     "archive": "n3-audio-b.aar.enc",
+     "bytes": 3163100,
+     "audioCount": 272,
+     "version": 44
+    },
+    {
+     "key": "c",
+     "archive": "n3-audio-c.aar.enc",
+     "bytes": 4038828,
+     "audioCount": 330,
+     "version": 44
+    },
+    {
+     "key": "d",
+     "archive": "n3-audio-d.aar.enc",
+     "bytes": 3498523,
+     "audioCount": 328,
+     "version": 44
+    },
+    {
+     "key": "e",
+     "archive": "n3-audio-e.aar.enc",
+     "bytes": 3942084,
+     "audioCount": 301,
+     "version": 44
+    },
+    {
+     "key": "f",
+     "archive": "n3-audio-f.aar.enc",
+     "bytes": 3720788,
+     "audioCount": 298,
+     "version": 44
+    }
+   ],
+   "minAppVersion": "1.4"
+  },
+  {
+   "id": "n2",
+   "archive": "n2.aar.enc",
+   "version": 48,
+   "bytes": 79269359,
+   "title": "N2",
+   "category": "level",
+   "audioCount": 4918,
+   "contentVersion": 48,
+   "audioVersion": 45,
+   "contentArchive": "n2-content.aar.enc",
+   "contentBytes": 1122468,
+   "audioShards": [
+    {
+     "key": "0",
+     "archive": "n2-audio-0.aar.enc",
+     "bytes": 5097727,
+     "audioCount": 327,
+     "version": 45
+    },
+    {
+     "key": "1",
+     "archive": "n2-audio-1.aar.enc",
+     "bytes": 5311384,
+     "audioCount": 299,
+     "version": 45
+    },
+    {
+     "key": "2",
+     "archive": "n2-audio-2.aar.enc",
+     "bytes": 4973496,
+     "audioCount": 299,
+     "version": 45
+    },
+    {
+     "key": "3",
+     "archive": "n2-audio-3.aar.enc",
+     "bytes": 3830669,
+     "audioCount": 284,
+     "version": 45
+    },
+    {
+     "key": "4",
+     "archive": "n2-audio-4.aar.enc",
+     "bytes": 6941313,
+     "audioCount": 270,
+     "version": 45
+    },
+    {
+     "key": "5",
+     "archive": "n2-audio-5.aar.enc",
+     "bytes": 3948565,
+     "audioCount": 296,
+     "version": 45
+    },
+    {
+     "key": "6",
+     "archive": "n2-audio-6.aar.enc",
+     "bytes": 4462812,
+     "audioCount": 286,
+     "version": 45
+    },
+    {
+     "key": "7",
+     "archive": "n2-audio-7.aar.enc",
+     "bytes": 3106229,
+     "audioCount": 289,
+     "version": 45
+    },
+    {
+     "key": "8",
+     "archive": "n2-audio-8.aar.enc",
+     "bytes": 4098428,
+     "audioCount": 350,
+     "version": 45
+    },
+    {
+     "key": "9",
+     "archive": "n2-audio-9.aar.enc",
+     "bytes": 6180197,
+     "audioCount": 310,
+     "version": 45
+    },
+    {
+     "key": "a",
+     "archive": "n2-audio-a.aar.enc",
+     "bytes": 6276160,
+     "audioCount": 309,
+     "version": 45
+    },
+    {
+     "key": "b",
+     "archive": "n2-audio-b.aar.enc",
+     "bytes": 5909163,
+     "audioCount": 327,
+     "version": 45
+    },
+    {
+     "key": "c",
+     "archive": "n2-audio-c.aar.enc",
+     "bytes": 4173958,
+     "audioCount": 303,
+     "version": 45
+    },
+    {
+     "key": "d",
+     "archive": "n2-audio-d.aar.enc",
+     "bytes": 4881662,
+     "audioCount": 311,
+     "version": 45
+    },
+    {
+     "key": "e",
+     "archive": "n2-audio-e.aar.enc",
+     "bytes": 3527683,
+     "audioCount": 329,
+     "version": 45
+    },
+    {
+     "key": "f",
+     "archive": "n2-audio-f.aar.enc",
+     "bytes": 5427445,
+     "audioCount": 329,
+     "version": 45
+    }
+   ],
+   "minAppVersion": "1.4"
+  },
+  {
+   "id": "n1",
+   "archive": "n1.aar.enc",
+   "version": 50,
+   "bytes": 96592187,
+   "title": "N1",
+   "category": "level",
+   "audioCount": 5106,
+   "contentVersion": 50,
+   "audioVersion": 43,
+   "contentArchive": "n1-content.aar.enc",
+   "contentBytes": 1523514,
+   "audioShards": [
+    {
+     "key": "0",
+     "archive": "n1-audio-0.aar.enc",
+     "bytes": 5948541,
+     "audioCount": 329,
+     "version": 43
+    },
+    {
+     "key": "1",
+     "archive": "n1-audio-1.aar.enc",
+     "bytes": 7492091,
+     "audioCount": 292,
+     "version": 43
+    },
+    {
+     "key": "2",
+     "archive": "n1-audio-2.aar.enc",
+     "bytes": 7396841,
+     "audioCount": 366,
+     "version": 43
+    },
+    {
+     "key": "3",
+     "archive": "n1-audio-3.aar.enc",
+     "bytes": 6727830,
+     "audioCount": 305,
+     "version": 43
+    },
+    {
+     "key": "4",
+     "archive": "n1-audio-4.aar.enc",
+     "bytes": 6061330,
+     "audioCount": 314,
+     "version": 43
+    },
+    {
+     "key": "5",
+     "archive": "n1-audio-5.aar.enc",
+     "bytes": 5368829,
+     "audioCount": 324,
+     "version": 43
+    },
+    {
+     "key": "6",
+     "archive": "n1-audio-6.aar.enc",
+     "bytes": 3947559,
+     "audioCount": 336,
+     "version": 43
+    },
+    {
+     "key": "7",
+     "archive": "n1-audio-7.aar.enc",
+     "bytes": 3366284,
+     "audioCount": 275,
+     "version": 43
+    },
+    {
+     "key": "8",
+     "archive": "n1-audio-8.aar.enc",
+     "bytes": 5341460,
+     "audioCount": 350,
+     "version": 43
+    },
+    {
+     "key": "9",
+     "archive": "n1-audio-9.aar.enc",
+     "bytes": 5491066,
+     "audioCount": 321,
+     "version": 43
+    },
+    {
+     "key": "a",
+     "archive": "n1-audio-a.aar.enc",
+     "bytes": 8097037,
+     "audioCount": 301,
+     "version": 43
+    },
+    {
+     "key": "b",
+     "archive": "n1-audio-b.aar.enc",
+     "bytes": 6383284,
+     "audioCount": 288,
+     "version": 43
+    },
+    {
+     "key": "c",
+     "archive": "n1-audio-c.aar.enc",
+     "bytes": 6146052,
+     "audioCount": 345,
+     "version": 43
+    },
+    {
+     "key": "d",
+     "archive": "n1-audio-d.aar.enc",
+     "bytes": 4774770,
+     "audioCount": 320,
+     "version": 43
+    },
+    {
+     "key": "e",
+     "archive": "n1-audio-e.aar.enc",
+     "bytes": 5595161,
+     "audioCount": 319,
+     "version": 43
+    },
+    {
+     "key": "f",
+     "archive": "n1-audio-f.aar.enc",
+     "bytes": 6930538,
+     "audioCount": 321,
+     "version": 43
+    }
+   ],
+   "minAppVersion": "1.4"
+  }
+ ]
+}
